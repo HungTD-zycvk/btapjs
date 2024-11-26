@@ -1,0 +1,45 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.content {
+    display: flex;  /* Dùng Flexbox để chia không gian giữa văn bản và hình ảnh */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text {
+    flex: 1;            /* Văn bản chiếm toàn bộ không gian còn lại */
+    margin-right: 20%;   /* Tạo khoảng trống cho hình ảnh */
+}
+
+.image-container {
+    width: 20%;         /* Hình ảnh chiếm 20% chiều rộng của phần cha */
+    position: relative;
+    border: 2px solid #000;  /* Đường viền quanh hình ảnh */
+}
+
+.image {
+    width: 100%;  /* Hình ảnh chiếm toàn bộ chiều rộng của phần chứa */
+    height: auto;
+}
+
+.caption {
+    text-align: center;  /* Căn giữa phụ đề */
+    font-style: italic;  /* In nghiêng */
+    font-size: 0.8rem;   /* Cỡ chữ nhỏ */
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);  /* Nền mờ */
+    color: white;
+    padding: 5px;
+}

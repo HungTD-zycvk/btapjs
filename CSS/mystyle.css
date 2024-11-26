@@ -1,0 +1,25 @@
+
+body{
+    background-color:white;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+p{
+    font-family: Verdana ;
+    font-size: 20px;
+}/**/
+th,td{
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid red;
+}
+th{
+    color: brown;
+}
+td{
+    color: yellow;
+}

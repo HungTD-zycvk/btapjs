@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: lightgreen;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #80e27e;
+    font-weight: bold;
+}
+
+td input, td select, td button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+td input[type="radio"] {
+    width: auto;
+}
+
+td button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color: #45a049;
+}
