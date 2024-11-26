@@ -7,6 +7,7 @@ function chuyenDoiCelsiusSangFahrenheit() {
   } else {
     document.getElementById('tempResult').innerText = "Vui lòng nhập một giá trị hợp lệ.";
   }
+  
 }
 
 // Bài Tập 2: Tính diện tích
